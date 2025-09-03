@@ -31,13 +31,3 @@ jobs:
       - name: Dizer "Hello"
         # comando a executar
         run: echo "Hello, World!"
-
-
-
-echo "# Pipeline" >> README.md
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Willian4182/Pipeline.git
-git push -u origin main
